@@ -11,8 +11,8 @@ Personal portfolio website
 ## Run Project Locally
 
 ```bash
-$ git clone https://github.com/Ra3L/raeliang.github.io.git
-$ cd raeliang.github.io
+$ git clone https://github.com/Ra3L/portfolio.git
+$ cd portfolio
 $ npm install
 $ npm run dev
 ```
