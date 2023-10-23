@@ -13,10 +13,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "service_sl8wxqb",
-        "template_43fusal",
+        import.meta.env.VITE_EMAIL_SERVICE_ID,
+        import.meta.env.VITE_EMAIL_TEMPLATE_ID,
         form.current,
-        "PlqbxM4J3UzDcWI-F"
+        import.meta.env.VITE_EMAIL_PUBLIC_KEY
       )
       .then(
         (result) => {
@@ -71,7 +71,7 @@ function Contact() {
           placeholder="Leave me your message :)"
         />
         <button
-          className="font-bold rounded-lg bg-[#d7d7d7] dark:text-neutral-600 hover:bg-[#8c8c8c] hover:boder-[#9f9f9f] px-4 py-3 my-8 mx-auto flex items-center"
+          className="ont-bold rounded-lg bg-[#d7d7d7] dark:text-neutral-600 hover:bg-[#8c8c8c] hover:boder-[#9f9f9f] px-4 py-3 my-8 mx-auto flex items-center"
           type="submit"
           value="Send"
         >
