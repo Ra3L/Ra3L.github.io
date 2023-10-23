@@ -124,7 +124,7 @@ function Navbar() {
               Email <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-stone-300 hover:bg-stone-500">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-slate-300 hover:bg-slate-500">
             <a
               className="flex justify-between items-center w-full text-stone-100"
               href={Resume}

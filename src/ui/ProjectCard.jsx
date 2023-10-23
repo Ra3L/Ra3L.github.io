@@ -26,12 +26,12 @@ function ProjectCard({ project }) {
           </ul>
 
           <a href={live} target="_blank">
-            <button className="text-center border py-1 px-2 text-gray-700 text-lg me-1">
+            <button className="text-center border py-1 px-2 text-gray-700 text-lg me-1 dark:text-slate-300">
               VISIT SITE
             </button>
           </a>
           <a href={github} target="_blank">
-            <button className="text-center border py-1 px-2 text-gray-700 text-lg ms-1">
+            <button className="text-center border py-1 px-2 text-gray-700 text-lg ms-1 dark:text-slate-300">
               GITHUB
             </button>
           </a>
