@@ -17,7 +17,7 @@ function Navbar() {
 
   return (
     <div className="fixed w-full h-[4rem] flex justify-between items-center px-4">
-      <div className="text-xl hover:text-stone-500">Rae Liang</div>
+      <div className="text-xl hover:text-stone-500">Rhae Liang</div>
 
       <ul className="hidden md:flex ">
         <li className="hover:text-stone-500">
@@ -99,7 +99,7 @@ function Navbar() {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6699cc] hover:bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-stone-100"
-              href="https://www.linkedin.com/in/raeliang"
+              href="https://www.linkedin.com/in/rhaeliang"
               target="_blank"
               rel="noopenner noreferrer"
             >
@@ -109,7 +109,7 @@ function Navbar() {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-stone-600 hover:bg-stone-900">
             <a
               className="flex justify-between items-center w-full text-stone-100"
-              href="https://github.com/Ra3L"
+              href="https://github.com/Rha3L"
               target="_blank"
               rel="noopenner noreferrer"
             >
@@ -119,7 +119,7 @@ function Navbar() {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#aecdcb] hover:bg-[#3c7782]">
             <a
               className="flex justify-between items-center w-full text-stone-100"
-              href="mailto:rae_liang@hotmail.com"
+              href="mailto:rhaeliang@gmail.com"
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -128,7 +128,7 @@ function Navbar() {
             <a
               className="flex justify-between items-center w-full text-stone-100"
               href={Resume}
-              download="Resume_RaeLiang.pdf"
+              download="Resume_RhaeLiang.pdf"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

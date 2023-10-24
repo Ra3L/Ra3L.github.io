@@ -1,6 +1,6 @@
 const IconLinkedIn = () => (
   <a
-    href="https://www.linkedin.com/in/raeliang"
+    href="https://www.linkedin.com/in/rhaeliang"
     target="_blank"
     rel="noopenner noreferrer"
   >

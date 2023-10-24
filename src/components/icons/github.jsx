@@ -1,5 +1,5 @@
 const IconGitHub = () => (
-  <a href="https://github.com/Ra3L" target="_blank" rel="noopenner noreferrer">
+  <a href="https://github.com/Rha3L" target="_blank" rel="noopenner noreferrer">
     <svg
       className="h-6 w-6 cursor-pointer text-black hover:opacity-50 dark:stroke-slate-300"
       width="24"

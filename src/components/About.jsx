@@ -18,7 +18,7 @@ function About() {
           </div>
           <div>
             <p className="pb-3">
-              Hello! My name is Rae and I'm a passionate and dedicated software
+              Hello! My name is Rhae and I'm a passionate and dedicated software
               engineer on a mission to create innovative solutions that make a
               positive impact on the world.
             </p>

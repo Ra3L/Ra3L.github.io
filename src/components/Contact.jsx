@@ -21,7 +21,7 @@ function Contact() {
           out. I'll get back to you as soon as I can!
         </p>
         <a
-          href="mailto:rae_liang@hotmail.com"
+          href="mailto:rhaeliang@gmail.com"
           className="text-xl rounded-md bg-[#d7d7d7] dark:text-neutral-600 dark:bg-slate-300 hover:opacity-60 hover:shadow-lg px-5 py-4 my-8 mx-auto"
         >
           Say Hello
