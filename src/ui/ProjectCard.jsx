@@ -7,11 +7,13 @@ function ProjectCard({ project }) {
 
   return (
     <>
-      <img
-        src={image}
-        key={index}
-        className="shadow-lg shadow-stone-200 dark:shadow-neutral-500 object-cover container mx-auto content-div opacity-25 hover:opacity-75"
-      ></img>
+      <a href={live} target="_blank" rel="nofollow noopener">
+        <img
+          src={image}
+          key={index}
+          className="shadow-lg shadow-stone-200 dark:shadow-neutral-500 object-cover container mx-auto content-div opacity-25 hover:opacity-75"
+        />
+      </a>
 
       <div className="flex flex-col justify-between ms-3">
         <div className="pt-3">
@@ -25,12 +27,12 @@ function ProjectCard({ project }) {
             ))}
           </ul>
 
-          <a href={live} target="_blank">
+          <a href={live} target="_blank" rel="nofollow noopener">
             <button className="text-center border py-1 px-2 text-gray-700 text-lg me-1 dark:text-slate-300">
               VISIT SITE
             </button>
           </a>
-          <a href={github} target="_blank">
+          <a href={github} target="_blank" rel="nofollow noopener">
             <button className="text-center border py-1 px-2 text-gray-700 text-lg ms-1 dark:text-slate-300">
               GITHUB
             </button>
