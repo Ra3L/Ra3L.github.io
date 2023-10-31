@@ -1,4 +1,4 @@
-import SocialApp from "../assets/projects/socialapp.png";
+import SocialApp from "../assets/projects/SocialApp.png";
 
 export const data = [
   {
