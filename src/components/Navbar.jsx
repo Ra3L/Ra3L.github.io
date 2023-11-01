@@ -1,11 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-
+import { FaBars, FaTimes } from "react-icons/fa";
 import Switcher from "../ui/Switcher";
-import Resume from "../assets/resumes/Resume.pdf";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -92,49 +88,6 @@ function Navbar() {
           </Link>
         </li>
       </ul>
-
-      {/* social icons */}
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0 z-50">
-        <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6699cc] hover:bg-blue-600">
-            <a
-              className="flex justify-between items-center w-full text-stone-100"
-              href="https://www.linkedin.com/in/rhaeliang"
-              target="_blank"
-              rel="noopenner noreferrer"
-            >
-              LinkedIn <FaLinkedin size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-stone-600 hover:bg-stone-900">
-            <a
-              className="flex justify-between items-center w-full text-stone-100"
-              href="https://github.com/Rha3L"
-              target="_blank"
-              rel="noopenner noreferrer"
-            >
-              GitHub <FaGithub size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#aecdcb] hover:bg-[#3c7782]">
-            <a
-              className="flex justify-between items-center w-full text-stone-100"
-              href="mailto:rhaeliang@gmail.com"
-            >
-              Email <HiOutlineMail size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-slate-300 hover:bg-slate-500">
-            <a
-              className="flex justify-between items-center w-full text-stone-100"
-              href={Resume}
-              download="Resume_RhaeLiang.pdf"
-            >
-              Resume <BsFillPersonLinesFill size={30} />
-            </a>
-          </li>
-        </ul>
-      </div>
     </div>
   );
 }

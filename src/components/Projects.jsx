@@ -9,9 +9,9 @@ function Projects() {
   return (
     <div
       name="projects"
-      className="w-full md:h-screen bg-neutral-50 dark:bg-neutral-700"
+      className="w-full h-screen bg-neutral-50 dark:bg-neutral-700"
     >
-      <div className="max-w-[64rem] mx-auto p-4 flex flex-col justify-center w-full">
+      <div className="max-w-[64rem] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-3">
           <SectionHeader>Projects</SectionHeader>
           <p className="py-6 text-xl">
