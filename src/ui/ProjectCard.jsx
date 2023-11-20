@@ -11,7 +11,7 @@ function ProjectCard({ project }) {
         <img
           src={image}
           key={index}
-          className="shadow-lg shadow-stone-200 dark:shadow-neutral-500 object-cover container mx-auto content-div opacity-25 hover:opacity-75"
+          className="shadow-lg shadow-stone-200 dark:shadow-neutral-500 object-fill container mx-auto content-div opacity-25 hover:opacity-75"
         />
       </a>
 

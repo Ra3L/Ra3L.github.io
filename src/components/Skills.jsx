@@ -2,6 +2,7 @@
 import HTML from "../assets/html.png";
 import CSS from "../assets/css.png";
 import Javascript from "../assets/javascript.png";
+import TSImg from "../assets/typescript.png";
 import ReactImg from "../assets/react.png";
 import CImg from "../assets/c.png";
 import Azure from "../assets/azure.png";
@@ -25,6 +26,9 @@ function Skills() {
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <SkillIcon src={Javascript} alt="Javascript icon">
             JAVASCRIPT
+          </SkillIcon>
+          <SkillIcon src={TSImg} alt="React icon">
+            TYPESCRIPT
           </SkillIcon>
           <SkillIcon src={ReactImg} alt="React icon">
             REACT

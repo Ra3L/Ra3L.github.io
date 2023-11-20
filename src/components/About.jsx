@@ -17,16 +17,26 @@ function About() {
             <p>Nice to meet you. Please take a look around.</p>
           </div>
           <div>
-            <p className="pb-3">
-              Hello! My name is Rhae and I'm a passionate and dedicated software
-              engineer on a mission to create innovative solutions that make a
+            <p className="pb-2">
+              Hello! My name is Rhae and I'm a passionate and dedicated frontend
+              developer on a mission to create innovative solutions that make a
               positive impact on the world.
             </p>
-            <p>
-              My journey as a software engineer began with a deep fascination
-              for coding and problem-solving. The journey is not easy but I
-              enjoy it every single day.
+            <p className="pb-2">
+              I used to be an accountant but I never feel accounting is the
+              right job for me. Past few years working as an accountant taught
+              me research skills, analytical way of thinking and attention to
+              detail. Those skills become useful when I started learning
+              programming and building projects.
             </p>
+            <p className="pb-2">
+              My journey as a software engineer began with a deep fascination
+              for programming ideas into products. I love the freedom to find
+              solutions on my own. The tech community is open to everyone.
+              Finding the root cause of problems and solve them is challenging
+              but fun.
+            </p>
+            <p>The journey is not easy. I enjoy it every single day!</p>
           </div>
         </div>
       </div>
