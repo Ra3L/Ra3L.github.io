@@ -1,22 +1,22 @@
-import SocialApp from "../assets/projects/SocialApp.png";
+import Dribbling from "../assets/projects/Dribbling.png";
 import PizzaHub from "../assets/projects/PizzaHub.jpg";
 
 export const data = [
   {
     id: 1,
-    name: "SocialApp",
-    image: SocialApp,
-    github: "https://github.com/Rha3L/socialapp-mern",
-    live: "https://socialapp-mern.vercel.app/",
+    name: "Dribbling",
+    image: Dribbling,
+    github: "https://github.com/Rha3L/dribbling-mern",
+    live: "https://dribbling.vercel.app/",
     description:
-      "- This project is social media webpage built with ReactJS and NodeJS.\n- It requires user authorization and authentication.\n- It's a full stack MERN project practicing CRUD operations with database.",
-    tech: ["mongoBD", "ExpressJS", "reactJS", "nodeJS"],
+      "- It is built for soccer lovers online socialing with people with same hobby. \n- It requires user authorization and authentication.\n- It's a full stack MERN project practicing CRUD operations with database.",
+    tech: ["Javascript", "ReactJS", "mongoBD", "ExpressJS", "nodeJS"],
   },
   {
     id: 2,
-    name: "Pizzeria Hub",
+    name: "Pizza Hub",
     image: PizzaHub,
-    github: "https://github.com/Rha3L/pizzeriahub-ts",
+    github: "https://github.com/Rha3L/pizzahub-ts",
     live: "https://pizzeriahub.vercel.app/",
     description:
       "-This project is pizza shop webpage built with ReactJS and Typescript.\n- It integrated with external APIs. \n- It's a frontend project practicing typescript with react framework.",
