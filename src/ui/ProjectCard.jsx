@@ -6,7 +6,7 @@ function ProjectCard({ project }) {
   const { index, name, image, github, live, description, tech } = project;
 
   return (
-    <>
+    <div>
       <a href={live} target="_blank" rel="nofollow noopener">
         <img
           src={image}
@@ -39,7 +39,7 @@ function ProjectCard({ project }) {
           </a>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

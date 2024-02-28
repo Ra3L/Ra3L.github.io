@@ -13,7 +13,7 @@ function Home() {
           Turning ideas into real life products
         </p>
         <div className="pl-6">
-          <button className="animate-pulse hover:pause rounded-lg shadow-lg bg-neutral-200 dark:bg-slate-300 dark:text-neutral-600 px-4 py-3 my-2 flex items-center hover:bg-[#8c8c8c] hover:boder-[#9f9f9f] hover:shadow-2xl">
+          <button className="rounded-lg shadow-lg bg-neutral-200 dark:bg-slate-300 dark:text-neutral-600 px-4 py-3 my-2 flex items-center hover:bg-[#8c8c8c] hover:boder-[#9f9f9f] hover:shadow-2xl -z-50">
             <Link to="projects" smooth={true} duration={500}>
               View My Work
             </Link>

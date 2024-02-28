@@ -9,7 +9,7 @@ function Projects() {
   return (
     <div
       name="projects"
-      className="w-full h-screen bg-neutral-50 dark:bg-neutral-700"
+      className="w-full h-screen bg-neutral-50 dark:bg-neutral-700 break-after-page"
     >
       <div className="max-w-[64rem] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-3">
@@ -20,7 +20,7 @@ function Projects() {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 overflow-y-auto">
           {project.map((project) => (
             <ProjectCard project={project} key={project.id} />
           ))}
