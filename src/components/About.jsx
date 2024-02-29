@@ -20,25 +20,25 @@ function About() {
           </div>
           <div className="text-sm sm:text-base">
             <p className="pb-2">
-              Hello! My name is Rhae and I'm a passionate and dedicated frontend
-              developer on a mission to create innovative solutions that make a
-              positive impact on the world.
+              Hello! My name is Rhae😃 Welcome to my little tech world!
             </p>
             <p className="pb-2">
-              I used to be an accountant but I never feel accounting is the
-              right job for me. Past few years working as an accountant taught
-              me research skills, analytical way of thinking and attention to
-              detail. Those skills become useful when I started learning
-              programming and building projects.
+              I'm a passionate and dedicated frontend developer on a mission to
+              create innovative solutions that make a positive impact on the
+              world.
             </p>
             <p className="pb-2">
               My journey as a software engineer began with a deep fascination
-              for programming ideas into products. I love the freedom to find
-              solutions on my own. The tech community is open to everyone.
-              Finding the root cause of problems and solve them is challenging
-              but fun.
+              for unlimited possibilities and freedom in tech world. Using
+              programming lanuages as tools, building up something from scratch,
+              and turning ideas in my head into reality.
             </p>
-            <p>The journey is not easy. I enjoy it every single day!</p>
+            <p className="pb-2">
+              Past few years working as an accountant taught me research skills,
+              analytical thinking, attention to detail and time management.
+              Those skills become quite useful when I started my tech journey.
+            </p>
+            <p>The journey is not easy, but I enjoy it every single day!</p>
           </div>
         </div>
       </div>
