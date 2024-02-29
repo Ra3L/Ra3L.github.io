@@ -15,7 +15,7 @@ function Contact() {
           <IconGitHub />
           <IconLinkedIn />
         </div>
-        <p className="py-5 text-xl text-center">
+        <p className="py-5 sm:text-xl text-center">
           I'm always open to new opportunities, collaborations, and learning
           from others. If you'd like to get in touch, don't hesitate to reach
           out. I'll get back to you as soon as I can!

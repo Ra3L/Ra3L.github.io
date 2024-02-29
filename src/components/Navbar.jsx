@@ -57,22 +57,22 @@ function Navbar() {
             : "absolute top-0 left-0 w-full h-screen bg-[#efefef] dark:bg-[#393939] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-3xl hover:text-stone-500">
+        <li className="py-6 text-2xl hover:text-stone-500">
           <Link to="home" smooth={true} duration={500} onClick={handleClick}>
             HOME
           </Link>
         </li>
-        <li className="py-6 text-3xl hover:text-stone-500">
+        <li className="py-6 text-2xl hover:text-stone-500">
           <Link to="about" smooth={true} duration={500} onClick={handleClick}>
             ABOUT
           </Link>
         </li>
-        <li className="py-6 text-3xl hover:text-stone-500">
+        <li className="py-6 text-2xl hover:text-stone-500">
           <Link to="skills" smooth={true} duration={500} onClick={handleClick}>
             SKILLS
           </Link>
         </li>
-        <li className="py-6 text-3xl hover:text-stone-500">
+        <li className="py-6 text-2xl hover:text-stone-500">
           <Link
             to="projects"
             smooth={true}
@@ -82,7 +82,7 @@ function Navbar() {
             PROJECTS
           </Link>
         </li>
-        <li className="py-6 text-3xl hover:text-stone-500">
+        <li className="py-6 text-2xl hover:text-stone-500">
           <Link to="contact" smooth={true} duration={500} onClick={handleClick}>
             CONTACT
           </Link>

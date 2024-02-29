@@ -15,15 +15,15 @@ function Skills() {
   return (
     <div name="skills" className="w-full h-screen">
       <div className="max-w-[64rem] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div>
+        <div className="my-8">
           <SectionHeader>Skills</SectionHeader>
-          <p className="py-4 text-xl">
+          <p className="py-4 sm:text-xl">
             I have experience in various technologies, including but not limited
             to:
           </p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 overflow-y-auto">
           <SkillIcon src={Javascript} alt="Javascript icon">
             JAVASCRIPT
           </SkillIcon>
